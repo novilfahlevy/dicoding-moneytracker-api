@@ -13,7 +13,7 @@ const gcs = new Storage({
 })
 
 // TODO: Tambahkan nama bucket yang digunakan
-const bucketName = 'moneytracker-app-1405'
+const bucketName = 'moneytracker-storage-1605'
 const bucket = gcs.bucket(bucketName)
 
 function getPublicUrl(filename) {
